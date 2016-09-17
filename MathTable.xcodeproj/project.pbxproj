@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2E13CD1D7FE90D00A975D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E13CC1D7FE90D00A975D9 /* main.m */; };
+		DA2E13D01D7FE90D00A975D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E13CF1D7FE90D00A975D9 /* AppDelegate.m */; };
+		DA2E13D31D7FE90D00A975D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E13D21D7FE90D00A975D9 /* ViewController.m */; };
+		DA2E13D61D7FE90D00A975D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2E13D41D7FE90D00A975D9 /* Main.storyboard */; };
+		DA2E13D81D7FE90D00A975D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2E13D71D7FE90D00A975D9 /* Assets.xcassets */; };
+		DA2E13DB1D7FE90D00A975D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2E13D91D7FE90D00A975D9 /* LaunchScreen.storyboard */; };
+		DA2E13E61D7FE90D00A975D9 /* MathTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E13E51D7FE90D00A975D9 /* MathTableTests.m */; };
+		DA2E13F11D7FE90D00A975D9 /* MathTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E13F01D7FE90D00A975D9 /* MathTableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2E13E21D7FE90D00A975D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2E13C01D7FE90D00A975D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2E13C71D7FE90D00A975D9;
+			remoteInfo = MathTable;
+		};
+		DA2E13ED1D7FE90D00A975D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2E13C01D7FE90D00A975D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2E13C71D7FE90D00A975D9;
+			remoteInfo = MathTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2E13C81D7FE90D00A975D9 /* MathTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2E13CC1D7FE90D00A975D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA2E13CE1D7FE90D00A975D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA2E13CF1D7FE90D00A975D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA2E13D11D7FE90D00A975D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA2E13D21D7FE90D00A975D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA2E13D51D7FE90D00A975D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2E13D71D7FE90D00A975D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2E13DA1D7FE90D00A975D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA2E13DC1D7FE90D00A975D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E13E11D7FE90D00A975D9 /* MathTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2E13E51D7FE90D00A975D9 /* MathTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTableTests.m; sourceTree = "<group>"; };
+		DA2E13E71D7FE90D00A975D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2E13EC1D7FE90D00A975D9 /* MathTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2E13F01D7FE90D00A975D9 /* MathTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathTableUITests.m; sourceTree = "<group>"; };
+		DA2E13F21D7FE90D00A975D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2E13C51D7FE90D00A975D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13DE1D7FE90D00A975D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13E91D7FE90D00A975D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2E13BF1D7FE90D00A975D9 = {
+			isa = PBXGroup;
+			children = (
+				DA2E13CA1D7FE90D00A975D9 /* MathTable */,
+				DA2E13E41D7FE90D00A975D9 /* MathTableTests */,
+				DA2E13EF1D7FE90D00A975D9 /* MathTableUITests */,
+				DA2E13C91D7FE90D00A975D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2E13C91D7FE90D00A975D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E13C81D7FE90D00A975D9 /* MathTable.app */,
+				DA2E13E11D7FE90D00A975D9 /* MathTableTests.xctest */,
+				DA2E13EC1D7FE90D00A975D9 /* MathTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2E13CA1D7FE90D00A975D9 /* MathTable */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E13CE1D7FE90D00A975D9 /* AppDelegate.h */,
+				DA2E13CF1D7FE90D00A975D9 /* AppDelegate.m */,
+				DA2E13D11D7FE90D00A975D9 /* ViewController.h */,
+				DA2E13D21D7FE90D00A975D9 /* ViewController.m */,
+				DA2E13D41D7FE90D00A975D9 /* Main.storyboard */,
+				DA2E13D71D7FE90D00A975D9 /* Assets.xcassets */,
+				DA2E13D91D7FE90D00A975D9 /* LaunchScreen.storyboard */,
+				DA2E13DC1D7FE90D00A975D9 /* Info.plist */,
+				DA2E13CB1D7FE90D00A975D9 /* Supporting Files */,
+			);
+			path = MathTable;
+			sourceTree = "<group>";
+		};
+		DA2E13CB1D7FE90D00A975D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E13CC1D7FE90D00A975D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2E13E41D7FE90D00A975D9 /* MathTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E13E51D7FE90D00A975D9 /* MathTableTests.m */,
+				DA2E13E71D7FE90D00A975D9 /* Info.plist */,
+			);
+			path = MathTableTests;
+			sourceTree = "<group>";
+		};
+		DA2E13EF1D7FE90D00A975D9 /* MathTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E13F01D7FE90D00A975D9 /* MathTableUITests.m */,
+				DA2E13F21D7FE90D00A975D9 /* Info.plist */,
+			);
+			path = MathTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2E13C71D7FE90D00A975D9 /* MathTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2E13F51D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTable" */;
+			buildPhases = (
+				DA2E13C41D7FE90D00A975D9 /* Sources */,
+				DA2E13C51D7FE90D00A975D9 /* Frameworks */,
+				DA2E13C61D7FE90D00A975D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTable;
+			productName = MathTable;
+			productReference = DA2E13C81D7FE90D00A975D9 /* MathTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2E13E01D7FE90D00A975D9 /* MathTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2E13F81D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTableTests" */;
+			buildPhases = (
+				DA2E13DD1D7FE90D00A975D9 /* Sources */,
+				DA2E13DE1D7FE90D00A975D9 /* Frameworks */,
+				DA2E13DF1D7FE90D00A975D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2E13E31D7FE90D00A975D9 /* PBXTargetDependency */,
+			);
+			name = MathTableTests;
+			productName = MathTableTests;
+			productReference = DA2E13E11D7FE90D00A975D9 /* MathTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA2E13EB1D7FE90D00A975D9 /* MathTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2E13FB1D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTableUITests" */;
+			buildPhases = (
+				DA2E13E81D7FE90D00A975D9 /* Sources */,
+				DA2E13E91D7FE90D00A975D9 /* Frameworks */,
+				DA2E13EA1D7FE90D00A975D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2E13EE1D7FE90D00A975D9 /* PBXTargetDependency */,
+			);
+			name = MathTableUITests;
+			productName = MathTableUITests;
+			productReference = DA2E13EC1D7FE90D00A975D9 /* MathTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2E13C01D7FE90D00A975D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nagam Pawan";
+				TargetAttributes = {
+					DA2E13C71D7FE90D00A975D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA2E13E01D7FE90D00A975D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA2E13C71D7FE90D00A975D9;
+					};
+					DA2E13EB1D7FE90D00A975D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA2E13C71D7FE90D00A975D9;
+					};
+				};
+			};
+			buildConfigurationList = DA2E13C31D7FE90D00A975D9 /* Build configuration list for PBXProject "MathTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2E13BF1D7FE90D00A975D9;
+			productRefGroup = DA2E13C91D7FE90D00A975D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2E13C71D7FE90D00A975D9 /* MathTable */,
+				DA2E13E01D7FE90D00A975D9 /* MathTableTests */,
+				DA2E13EB1D7FE90D00A975D9 /* MathTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2E13C61D7FE90D00A975D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E13DB1D7FE90D00A975D9 /* LaunchScreen.storyboard in Resources */,
+				DA2E13D81D7FE90D00A975D9 /* Assets.xcassets in Resources */,
+				DA2E13D61D7FE90D00A975D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13DF1D7FE90D00A975D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13EA1D7FE90D00A975D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2E13C41D7FE90D00A975D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E13D31D7FE90D00A975D9 /* ViewController.m in Sources */,
+				DA2E13D01D7FE90D00A975D9 /* AppDelegate.m in Sources */,
+				DA2E13CD1D7FE90D00A975D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13DD1D7FE90D00A975D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E13E61D7FE90D00A975D9 /* MathTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2E13E81D7FE90D00A975D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2E13F11D7FE90D00A975D9 /* MathTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2E13E31D7FE90D00A975D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2E13C71D7FE90D00A975D9 /* MathTable */;
+			targetProxy = DA2E13E21D7FE90D00A975D9 /* PBXContainerItemProxy */;
+		};
+		DA2E13EE1D7FE90D00A975D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2E13C71D7FE90D00A975D9 /* MathTable */;
+			targetProxy = DA2E13ED1D7FE90D00A975D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2E13D41D7FE90D00A975D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2E13D51D7FE90D00A975D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2E13D91D7FE90D00A975D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2E13DA1D7FE90D00A975D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2E13F31D7FE90D00A975D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA2E13F41D7FE90D00A975D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2E13F61D7FE90D00A975D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2E13F71D7FE90D00A975D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MathTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA2E13F91D7FE90D00A975D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTable.app/MathTable";
+			};
+			name = Debug;
+		};
+		DA2E13FA1D7FE90D00A975D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MathTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTable.app/MathTable";
+			};
+			name = Release;
+		};
+		DA2E13FC1D7FE90D00A975D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathTable;
+			};
+			name = Debug;
+		};
+		DA2E13FD1D7FE90D00A975D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MathTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Neorays.MathTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathTable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2E13C31D7FE90D00A975D9 /* Build configuration list for PBXProject "MathTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E13F31D7FE90D00A975D9 /* Debug */,
+				DA2E13F41D7FE90D00A975D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2E13F51D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E13F61D7FE90D00A975D9 /* Debug */,
+				DA2E13F71D7FE90D00A975D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2E13F81D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E13F91D7FE90D00A975D9 /* Debug */,
+				DA2E13FA1D7FE90D00A975D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2E13FB1D7FE90D00A975D9 /* Build configuration list for PBXNativeTarget "MathTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2E13FC1D7FE90D00A975D9 /* Debug */,
+				DA2E13FD1D7FE90D00A975D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2E13C01D7FE90D00A975D9 /* Project object */;
+}
